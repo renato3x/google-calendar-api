@@ -1,0 +1,22 @@
+{
+  "calendarApi": {
+    "web": {
+      "client_id": "834394515636-rm53kim5khsh055mjrhjth4jpc9gjho8.apps.googleusercontent.com",
+      "project_id": "go-fit-project-359412",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_secret": "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",
+      "redirect_uris": ["http://localhost:3000/app"],
+      "javascript_origins": ["http://localhost:3000"],
+      "scopes": [
+        "https://www.googleapis.com/auth/calendar",
+        "https://www.googleapis.com/auth/calendar.readonly",
+        "https://www.googleapis.com/auth/calendar.events",
+        "https://www.googleapis.com/auth/calendar.events.readonly",
+        "https://www.googleapis.com/auth/calendar.settings.readonly",
+        "https://www.googleapis.com/auth/calendar.addons.execute"
+      ]
+    }    
+  }
+}
